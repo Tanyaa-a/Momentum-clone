@@ -374,7 +374,6 @@ body {
   transform: translateX(180%);
 }
 
-
 .todo-list {
   display: flex;
   flex-direction: column;
@@ -394,11 +393,6 @@ body {
 
 .lang-select {
   width: 95px;
-}
-
-.background-sel {
-  width: 95px;
-  margin-left: 10px;
 }
 
 .tags {
