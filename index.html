@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="assets/favicon.ico" rel="shortcut icon" />
+    <link rel="stylesheet" href="css/owfont-regular.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Momentum</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="player">
+        <div class="current-track">
+          <div class="track-title"></div>
+          <div class="current-track-time"></div>
+          <div class="current-track-scale">
+            <div class="current-track-progress"></div>
+          </div>
+        </div>
+        <div class="player-controls">
+          <audio src="./js/playList.js"></audio>
+          <button class="play-prev player-icon"></button>
+          <button class="play player-icon"></button>
+          <button class="play-next player-icon"></button>
+          <button class="volume-icon player-icon"></button>
+          <div class="volume-bar">
+            <div class="volume-progress"></div>
+          </div>
+        </div>
+        <ul class="play-list"></ul>
+      </div>
+      <div class="weather">
+        <input
+          type="text"
+          placeholder="enter city"
+          class="city"
+          value="San Francisco"
+        />
+        <i class="weather-icon owf"></i>
+        <div class="weather-error"></div>
+        <div class="description-container">
+          <span class="temperature"></span>
+          <span class="weather-description"></span>
+        </div>
+        <div class="wind"></div>
+        <div class="humidity"></div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="slider-icons">
+        <button class="slide-prev slider-icon"></button>
+        <button class="slide-next slider-icon"></button>
+      </div>
+      <time class="time"></time>
+      <date class="date"></date>
+      <div class="greeting-container">
+        <span class="greeting"></span>
+        <input
+          type="text"
+          class="name"
+          id="nameInput"
+          placeholder="[your name here]"
+        />
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="settings-container">
+        <h4 class="setting-title">Settings</h4>
+        <div class="lang">
+          <label for="lang" class="lang-title">Language</label>
+          <select class="lang-select" id="lang">
+            <option value="en">English</option>
+            <option value="uk">Українська</option>
+          </select>
+        </div>
+
+        <div class="background">
+          <label for="background-sel" class="background-select"
+            >Background</label
+          >
+          <select name="background" id="background-sel" class="background-sel">
+            <option value="git" class="git-select">GitHub</option>
+            <option value="unsplash" class="unsplash-select">Unsplash</option>
+            <option value="flickr" class="flickr-select">Flickr</option>
+          </select>
+        </div>
+
+        <div class="input-image-tag">
+          <label for="search" class="tags">Tags</label>
+          <input
+            type="text"
+            id="search"
+            class="image-tag-input"
+            maxlength="30"
+            placeholder="Add your tag for photo"
+          />
+        </div>
+
+        <div class="swow-tim">
+          <h5 class="show-title">Show</h5>
+          <ul class="show-list">
+            <li class="show-item">
+              <input
+                type="checkbox"
+                class="input-checkbox checkbox-time"
+                id="checkbox-time"
+                checked
+              />
+              <label for="checkbox-time" class="input-label-time">Time</label>
+            </li>
+            <li class="show-item">
+              <input
+                type="checkbox"
+                class="input-checkbox checkbox-date"
+                id="checkbox-date"
+                checked
+              />
+              <label for="checkbox-date" class="input-label-date">Date</label>
+            </li>
+            <li class="show-item">
+              <input
+                type="checkbox"
+                class="input-checkbox checkbox-weather"
+                id="checkbox-weather"
+                checked
+              />
+              <label for="checkbox-weather" class="input-label-weather"
+                >Weather</label
+              >
+            </li>
+            <li class="show-item">
+              <input type="checkbox" class="input-checkbox checkbox-quotes" id="checkbox-quotes" checked />
+              <label for="checkbox-quotes" class="input-label-quotes"
+                >Quotes</label>
+            </li>
+            <li class="show-item">
+              <input
+                type="checkbox"
+                class="input-checkbox checkbox-greeting"
+                id="checkbox-greeting"
+                checked
+              />
+              <label for="checkbox-greeting" class="input-label-greeting"
+                >Greeting</label
+              >
+            </li>
+            <li class="show-item">
+              <input
+                type="checkbox"
+                class="input-checkbox checkbox-audio"
+                id="checkbox-audio"
+                checked
+              />
+              <label for="checkbox-audio" class="input-label-audio"
+                >Audio</label>
+            </li>
+            <li class="show-item">
+              <input
+                type="checkbox"
+                class="input-checkbox checkbox-todo"
+                id="checkbox-todo"
+                checked
+              />
+              <label for="checkbox-todo" class="input-label-todo">Todo</label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="settings">
+        <button class="settings-button">
+          <span class="settings-button-name">Settings</span>
+        </button>
+      </div>
+
+      <div class="center-wrapper">
+        <div class="quotes">
+          <button class="change-quote"></button>
+          <div class="quote"></div>
+          <div class="author"></div>
+        </div>
+  
+        <ul class="logo-items">
+          <li class="year logo-list">2023</li>
+          <li class="logo-git logo-list">
+            <a href="https://github.com/Tanyaa-a" target="_blank" title="GitHub">
+              <img class="socialmedia-icon" src="assets/svg/github.svg" alt="GitHub Logo">
+            </a>
+          </li>
+          <li class="logo-RS logo-list">
+            <a href="https://rs.school/js-stage0/" target="_blank" title="Rolling Scopes School">
+              <img class="rs-icon" src="assets/svg/rsschooljs.svg" alt="RS-School Logo">
+            </a>  
+          </li>
+  
+        </ul>
+      </div>
+   
+
+      <div class="todolist">
+        <button class="todo-button">
+          <span class="todo-title">Todo</span>
+        </button>
+        <div class="todolist-container">
+          <select class="todo-select">
+            <option value="today" class="todo-select-title today-done">
+              Today
+            </option>
+            <option value="done" class="todo-select-title done">Done</option>
+          </select>
+
+          <ul class="todo-list"></ul>
+
+          <input
+            type="text"
+            class="todo-new"
+            maxlength="20"
+            placeholder="New Todo"
+          />
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="js/script.js"></script>
+    <script src="js/quotes.json"></script>
+    <script src="js/background.js"></script>
+  </body>
+</html>

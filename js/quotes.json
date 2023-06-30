@@ -1,0 +1,45 @@
+{
+  "quotes": 
+  [
+      { 
+        "en": {
+          "text": "Genius is one percent inspiration and ninety-nine percent perspiration.",
+          "author": "Thomas Edison"
+        },
+        "uk": {
+          "text": "Геній - це один відсоток натхнення і дев'яносто дев'ять відсотків поту.",
+          "author": "Томас Едісон"
+        }
+      },
+      { 
+        "en": {
+          "text": "You can observe a lot just by watching.",
+          "author": "Yogi Berra"
+        },
+        "uk": {
+          "text": "Ви можете багато помітити, просто спостерігаючи.",
+          "author": "Йогі Берра"
+        }
+      },
+      { 
+        "en": {
+          "text": "A house divided against itself cannot stand.",
+          "author": "Abraham Lincoln"
+        },
+        "uk": {
+          "text": "Будинок, поділений проти себе, не може встояти.",
+          "author": "Авраам Лінкольн"
+        }
+      },
+      { 
+        "en": {
+          "text": "Difficulties increase the nearer we get to the goal.",
+          "author": "Johann Wolfgang von Goethe"
+        },
+        "uk": {
+          "text": "Труднощі зростають, чим ближче ми до мети.",
+          "author": "Йоганн Вольфганг фон Гете"
+        }
+      }
+  ]
+}
