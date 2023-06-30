@@ -1,6 +1,9 @@
 # Momentum
 
+![Momentum Screenshot](/momentum/assets/img/Momentum.png)
+
 Momentum is a clone of the homonymous application from the Chrome Web Store. The application displays the time and the user's name. The background image and greeting change depending on the time of day.
+
 
 ## Features
 
