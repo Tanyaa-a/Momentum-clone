@@ -4,6 +4,9 @@
 
 Momentum is a clone of the homonymous application from the Chrome Web Store. The application displays the time and the user's name. The background image and greeting change depending on the time of day.
 
+**Live Demo:** [Click Here](<https://tanyaa-a.github.io/Momentum-clone/momentum/>)
+
+**Source Code:** [GitHub Repository](<https://github.com/Tanyaa-a/Momentum-clone/tree/gh-pages/momentum>)
 
 ## Features
 
