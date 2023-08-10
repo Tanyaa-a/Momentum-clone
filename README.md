@@ -51,6 +51,6 @@ Momentum Clone is a dynamic, multi-feature dashboard designed to enhance daily p
 ---
 
 ## Demo Link 🔗
-[Experience Momentum Cline live!](your-demo-link-here)
+[Experience Momentum Clone live!](your-demo-link-here)
 
 ---
